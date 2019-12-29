@@ -6,11 +6,13 @@
 
 using namespace std;
 
-void say_hi() {
+void say_hi()
+{
 	cout << "Hi Frank!";
 }
 
-int main() {
+int main()
+{
 	say_hi();
 	return 0;
 }

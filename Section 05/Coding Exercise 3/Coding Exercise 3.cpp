@@ -10,7 +10,8 @@
 #include <iostream>
 using namespace std;
 
-void date_of_birth() {
+void date_of_birth()
+{
 	int m{};
 	int d{};
 	int y{};
@@ -18,7 +19,8 @@ void date_of_birth() {
 	cout << m << " " << d << " " << y;
 }
 
-int main() {
+int main()
+{
 	date_of_birth();
 	return 0;
 }

@@ -15,7 +15,8 @@
 #include <string>
 using namespace std;
 
-void employee_profile() {
+void employee_profile()
+{
 	int age;
 	double hourly_wage{23.50};
 	string name;
@@ -23,7 +24,8 @@ void employee_profile() {
 	cout << name << " " << age << " " << hourly_wage;
 }
 
-int main() {
+int main()
+{
 	employee_profile();
 	return 0;
 }
