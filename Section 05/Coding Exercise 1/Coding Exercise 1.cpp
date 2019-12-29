@@ -3,7 +3,6 @@
  * Write a single output statement using cout that displays "Hi Frank!" to the console.
  */
 #include <iostream>
-
 using namespace std;
 
 void say_hi()

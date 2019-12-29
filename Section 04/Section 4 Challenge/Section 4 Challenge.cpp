@@ -18,7 +18,6 @@
  * No really!!, 24 is  my favorite number!
  */
 #include <iostream>
-
 using namespace std;
 
 int main()
