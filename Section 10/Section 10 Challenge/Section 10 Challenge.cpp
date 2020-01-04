@@ -4,7 +4,7 @@
  * A simple and very old method of sending secret messages is the substitution cipher.
  * You might have used this cipher with your friends when you were a kid.
  * Basically, each letter of the alphabet gets replaced by another letter of the alphabet.
- * For example, every 'a' get replaced with an 'X', and every 'b' gets replaced with a 'Z', etc.
+ * For example, every 'a' gets replaced with an 'X', and every 'b' gets replaced with a 'Z', etc.
  *
  * Write a program that asks a user to enter a secret message.
  *
@@ -34,14 +34,14 @@ int main()
 {
 	string alphabet{"A abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"};
 	string cipher{" AXZNLWEBGJHQDYVTKFUOMPCIASRxznlwebgjhqdyvtkfuompciasr"};
-	string encrypted{}, decrypted{}, secret{};
+	string encrypted_message{}, decrypted_message{}, secret_message{};
 
 	cout << "Enter your secret message: ";
-	getline(cin, secret);
+	getline(cin, secret_message);
 
 	cout << "\nEncrypting message..." << endl;
 
-	for (char c : secret)
+	for (char c : secret_message)
 	{
 		if (alphabet.find(c))
 		{
@@ -49,20 +49,20 @@ int main()
 			if (position != string::npos)
 			{
 				char new_char{cipher.at(position)};
-				encrypted += new_char;
+				encrypted_message += new_char;
 			}
 			else
 			{
-				encrypted += c;
+				encrypted_message += c;
 			}
 		}
 	}
 
-	cout << "\nEncrypted message: " << encrypted << endl;
+	cout << "\nEncrypted message: " << encrypted_message << endl;
 
 	cout << "\nDecrypting message..." << endl;
 
-	for (char c : encrypted)
+	for (char c : encrypted_message)
 	{
 		if (alphabet.find(c))
 		{
@@ -70,16 +70,16 @@ int main()
 			if (position != string::npos)
 			{
 				char new_char{alphabet.at(position)};
-				decrypted += new_char;
+				decrypted_message += new_char;
 			}
 			else
 			{
-				decrypted += c;
+				decrypted_message += c;
 			}
 		}
 	}
 
-	cout << "\nDecrypted message: " << decrypted << endl;
+	cout << "\nDecrypted message: " << decrypted_message << endl;
 
 	return 0;
 }
