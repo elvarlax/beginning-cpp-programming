@@ -14,8 +14,6 @@
  * within journal_entry_1, then the string values are swapped using the string function swap.
  *
  * You may use either of the comparison operators < > in the if statement but remember that following ASCII, "A" is lexicographically lower than "B".
- *
- * 
  */
 #include <iostream>
 #include <string>
