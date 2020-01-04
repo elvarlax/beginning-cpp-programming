@@ -19,10 +19,12 @@
  *
  * Remember the rules of PEMDAS when defining the body of your functions.
  *
- * Now, from the temperature_conversion function, declare and initialize the variables celsius_temperature and kelvin_temperature by
- * calling the appropriate functions which you have just defined and passing the variable fahrenheit_temperature.
+ * Now, from the temperature_conversion function, declare and initialize the variables celsius_temperature and
+ * kelvin_temperature by calling the appropriate functions which you have just defined and
+ * passing the variable fahrenheit_temperature.
  *
- * You do not need to declare or initialize fahrenheit_temperature as it is already available to you as a parameter of the temperature_conversion function.
+ * You do not need to declare or initialize fahrenheit_temperature as it is already available to
+ * you as a parameter of the temperature_conversion function.
  */
 #include <iostream>
 #include <cmath>
@@ -42,7 +44,7 @@ void temperature_conversion(double fahrenheit_temperature)
 
 int main()
 {
-    temperature_conversion(100);
+	temperature_conversion(100);
 	temperature_conversion(200);
 	temperature_conversion(300);
 	temperature_conversion(400);
@@ -52,10 +54,10 @@ int main()
 
 double fahrenheit_to_celsius(double fahrenheit_temperature)
 {
-	return round( (fahrenheit_temperature - 32) * 5.0 / 9.0);
+	return round((fahrenheit_temperature - 32) * 5.0 / 9.0);
 }
 
 double fahrenheit_to_kelvin(double fahrenheit_temperature)
 {
-	return round( (fahrenheit_temperature - 32) * 5.0 / 9.0 + 273);
+	return round((fahrenheit_temperature - 32) * 5.0 / 9.0 + 273);
 }
