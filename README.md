@@ -7,7 +7,7 @@ All coursework for the Beginning C++ Programming - From Beginner to Beyond by Ti
 ## Curriculum
 
 - [x] Section 01 - Introduction
-- [x] Section 02 - Instrallation and Setup
+- [x] Section 02 - Installation and Setup
 - [x] Section 03 - Curriculum Overview
 - [x] Section 04 - Getting Started
 - [x] Section 05 - Structure of a C++ Program
