@@ -32,7 +32,8 @@ using namespace std;
 string print_guest_list(const string[], size_t);
 void clear_guest_list(string[], size_t);
 
-void event_guest_list() {
+void event_guest_list() 
+{
 	string guest_list[]{ "Larry", "Moe", "Curly" };
 	size_t guest_list_size{ 3 };
 
@@ -41,7 +42,8 @@ void event_guest_list() {
 	print_guest_list(guest_list, guest_list_size);
 }
 
-string print_guest_list(const string guest_list[], size_t guest_list_size) {
+string print_guest_list(const string guest_list[], size_t guest_list_size) 
+{
 	for (size_t i{ 0 }; i < guest_list_size; i++) {
 		cout << guest_list[i] << endl;
 	}
@@ -49,7 +51,8 @@ string print_guest_list(const string guest_list[], size_t guest_list_size) {
 	return typeid(guest_list).name();
 }
 
-void clear_guest_list(string guest_list[], size_t guest_list_size) {
+void clear_guest_list(string guest_list[], size_t guest_list_size) 
+{
 	for (size_t i{ 0 }; i < guest_list_size; i++) {
 		guest_list[i] = " ";
 	}
