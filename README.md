@@ -16,7 +16,7 @@ All coursework for the Beginning C++ Programming - From Beginner to Beyond by Ti
 - [x] Section 08 - Statements and Operators
 - [x] Section 09 - Controlling Program Flow
 - [x] Section 10 - Characters and Strings
-- [ ] Section 11 - Functions
+- [x] Section 11 - Functions
 - [ ] Section 12 - Pointers and References
 - [ ] Section 13 - OOP - Classes and Objects
 - [ ] Section 14 - Operator Overloading

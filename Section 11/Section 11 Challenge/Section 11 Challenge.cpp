@@ -25,9 +25,9 @@
  * Take it one function at a time and take your time.
  * If you get frustrated, take a break -- this isn't as easy as it looks the first time you do it!
  *
- * Finally, don't forgeto use function prototypes!
+ * Finally, don't forget use function prototypes!
  *
- * Good lock -- I know you can do it!
+ * Good luck -- I know you can do it!
  */
 #include <vector>
 #include <iostream>
@@ -44,6 +44,7 @@ void getNumbers(const vector<int>& v);
 void getMean(const vector<int>& v);
 void getSmallest(const vector<int>& v);
 void getLargest(const vector<int>& v);
+void findNumber(const vector<int>& v);
 bool find(const vector<int>& v, int target);
 void quit();
 void unknown();
@@ -122,11 +123,11 @@ void findNumber(const vector<int>& v) {
 	cout << "Enter the number to find: ";
 	cin >> target;
 	if (find(v, target)) {
-		cout << target << " was found" << endl;
+		cout << target << " was found in the list" << endl;
 	}
 	else
 	{
-		cout << target << " was not found";
+		cout << target << " was not found in list" << endl;
 	}
 }
 
@@ -230,6 +231,7 @@ int main()
 			break;
 		default:
 			unknown();
+			break;
 		}
 	} while (choice != 'Q');
 	cout << endl;
