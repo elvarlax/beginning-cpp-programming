@@ -18,7 +18,7 @@ All coursework for the Beginning C++ Programming - From Beginner to Beyond by Ti
 - [x] Section 10 - Characters and Strings
 - [x] Section 11 - Functions
 - [x] Section 12 - Pointers and References
-- [ ] Section 13 - OOP - Classes and Objects
+- [x] Section 13 - OOP - Classes and Objects
 - [ ] Section 14 - Operator Overloading
 - [ ] Section 15 - Inheritance
 - [ ] Section 16 - Polymorphism
