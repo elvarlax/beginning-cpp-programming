@@ -2,7 +2,6 @@
 #define _MONEY_MONEY_H
 
 #include <iostream>
-#include <ostream>
 using namespace std;
 
 class Money {

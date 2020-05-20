@@ -19,7 +19,7 @@ All coursework for the Beginning C++ Programming - From Beginner to Beyond by Ti
 - [x] Section 11 - Functions
 - [x] Section 12 - Pointers and References
 - [x] Section 13 - OOP - Classes and Objects
-- [ ] Section 14 - Operator Overloading
+- [x] Section 14 - Operator Overloading
 - [ ] Section 15 - Inheritance
 - [ ] Section 16 - Polymorphism
 - [ ] Section 17 - Smart Pointers
