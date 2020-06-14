@@ -83,7 +83,7 @@ int main() {
 
 	// Trust Account
 	vector<Trust_Account> trust_accounts;
-	trust_accounts.push_back({});
+	trust_accounts.push_back(Trust_Account{});
 	trust_accounts.push_back(Trust_Account{ "Jacob" });
 	trust_accounts.push_back(Trust_Account{ "Erik", 10000, 5.0 });
 	trust_accounts.push_back(Trust_Account{ "Karen", 20000, 4.0 });
