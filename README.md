@@ -25,4 +25,4 @@ All coursework for the Beginning C++ Programming - From Beginner to Beyond by Ti
 - [x] Section 17 - Smart Pointers
 - [x] Section 18 - Exception Handling
 - [x] Section 19 - I/O and Streams
-- [ ] Section 20 - The Standard Template Library (STL)
+- [x] Section 20 - The Standard Template Library (STL)
