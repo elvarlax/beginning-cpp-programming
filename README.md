@@ -4,6 +4,8 @@ All coursework for the Beginning C++ Programming - From Beginner to Beyond by Ti
 [The Course at Udemy](https://www.udemy.com/course/beginning-c-plus-plus-programming/)   
 [The Learn Programming Academy](http://learnprogramming.academy)
 
+![Certificate](certificate.jpg)
+
 ## Curriculum
 
 - [x] Section 01 - Introduction
