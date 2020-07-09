@@ -48,16 +48,6 @@
 #include <iomanip>
 using namespace std;
 
-int calculate_score(const string& response, const string& key) {
-	int score{ 0 };
-	for (int i = 0; i < key.size(); i++) {
-		if (response[i] == key[i]) {
-			score++;
-		}
-	}
-	return score;
-}
-
 int main() {
 	ifstream in_file;
 	string key{};
@@ -80,7 +70,12 @@ int main() {
 
 	while (in_file >> name >> response) {
 		num_students++;
-		int score = calculate_score(response, key);
+		int score{ 0 };
+		for (int i = 0; i < key.size(); i++) {
+			if (response[i] == key[i]) {
+				score++;
+			}
+		}
 		sum += score;
 		cout << setw(10) << left << name << setw(10) << right << score << endl;
 	}

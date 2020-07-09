@@ -114,7 +114,6 @@ string clean_string(const string& s) {
 // number of times they occur in the file
 void part1() {
 	map<string, int> words;
-	string line;
 	string word;
 	ifstream in_file{ "words.txt" };
 
